@@ -1,0 +1,94 @@
+#container{
+    width: 1440px;
+    margin: 0 auto;
+}
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 8px 8px 0px;
+}
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0px 0px 8px;
+}
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+#b1 {
+    color: hsl(31, 77%, 52%)
+}
+#b2 {
+    color: hsl(184, 100%, 22%);
+}
+#b3 {
+    color: hsl(179, 100%, 13%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 600;
+    font-size: 30px;
+}
+.parent {
+    border: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.child {
+    float: left;
+}
+.icon,.heading {
+    padding: 1px;
+    margin: 1px;
+}
+.button {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    width: 102px;
+    height: 36px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid white;
+    border-radius: 80px;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;   
+}
+.outer {
+    margin: 15px;
+    padding: 15px;
+}
+.para {
+    padding-bottom: 50px;
+    padding-right: 15px;
+    line-height: 16px;   
+}
+@media screen and (max-width: 375px) {
+    .child {
+        width: 100%;
+    }
+}
+#b3:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+#b1:hover {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+#b2:hover {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
